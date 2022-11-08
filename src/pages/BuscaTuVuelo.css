@@ -1,0 +1,67 @@
+.Vuelo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Vuelo-container .titulo{
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+.Vuelo-container span{
+    color: #FFBF00;
+}
+
+
+h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.vuelosInteres-container{
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+@media (max-width: 600px) {
+    .Vuelo-container .titulo{
+        font-size: 2em;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .Vuelo-container {
+        width: 100%;
+    }
+    .Vuelo-container .titulo{
+        font-size: 1.5em;
+        
+    }
+  }
+
+  @media (max-width: 390px) {
+    .Vuelo-container {
+        width: 100%;
+    }
+    .Vuelo-container .titulo{
+        font-size: 1.5em;
+        
+    }
+  }
+  @media (max-width: 280px) {
+    .Vuelo-container .titulo{
+        font-size: 1.5em;
+    }
+  }
+
+  @media (max-width: 200px) {
+    .Vuelo-container .titulo{
+        font-size: 1em;
+    }
+  }

@@ -1,0 +1,97 @@
+:root {
+    --select-border: #777;
+    --select-focus: blue;
+    --select-arrow: var(--select-border);
+  }
+.Formulario-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.Formulario{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Selects-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    width: 100%;
+    
+}
+
+select{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  
+}
+
+select:hover{
+    box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.origen-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destino-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Input-number-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-Date-container{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+@media only screen and (max-width: 400px) {
+   
+    .Formulario-container{
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 380px) {
+   
+    .Formulario-container{
+        width: 100%;
+        gap: 1.5px;
+    }
+    .Selects-container{
+        width: 100%;
+        gap: 1px;
+    }
+  }

@@ -1,0 +1,33 @@
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  background: rgba(0, 0, 0, 10);
+  width: 100%;
+  top: 0;
+  background-color: #111217;
+
+
+}
+
+.img-logo{
+  width: 100px;
+  height: auto;
+  margin-top: 5px;
+}
+.nav__brand {
+  text-transform: uppercase;
+   color: #ffff;
+   font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 96% */
+
+}
+
+
+
