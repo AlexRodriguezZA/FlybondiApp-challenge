@@ -35,7 +35,11 @@ const handleInput = (e) => {
         { 
         VueloBuscado.origen === VueloBuscado.destino ? <Error/> : null
         }
-        
+
+        {
+            VueloBuscado.origen === " " && VueloBuscado.destino === " " ? null : null
+             
+        }        
         
         
         <form action="" className='Formulario' onSubmit={hanldeSubmit}>

@@ -6,7 +6,7 @@ const Error = () => {
     return (
       <div className='error-container'>
           <BsFillExclamationCircleFill />
-          Origen y destino son lo mismo
+          Ingrese diferente origen y destino
       </div>
     ) 
   }
